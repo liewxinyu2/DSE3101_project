@@ -1,8 +1,10 @@
 ---
 title: "wk2-workshop"
 author: "Liew Xin Yu"
-date: "2024-01-24"
-output: html_document
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
